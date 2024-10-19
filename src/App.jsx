@@ -1,5 +1,5 @@
 import Homepage from './components/Homepage'
-import Gamepage from './components/GamePage'
+import Gamepage from './components/Gamepage'
 import { useState } from 'react'
 
 function App() {
@@ -9,9 +9,8 @@ function App() {
   }
   return(
     <div>
-      
+
       {isGameStarted ? <Gamepage /> : <Homepage startGame={startGame} />}
-      
     </div>
   )
 }
