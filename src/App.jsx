@@ -1,5 +1,5 @@
 import Homepage from './components/Homepage'
-import Gamepage from './components/Gamepage'
+import Homepage from './components/Homepage';
 import { useState } from 'react'
 
 function App() {
